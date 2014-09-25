@@ -1,0 +1,13 @@
+package:
+  name: unxutils
+  version: 14.04.03
+
+source:
+  fn: 7za920.zip [win]
+  url: http://downloads.sourceforge.net/unxutils/UnxUtils.zip [win]
+
+build:
+  number: 0
+
+about:
+  home: http://unxutils.sourceforge.net/

@@ -1,0 +1,11 @@
+package:
+  name: kerberos
+  version: "1.14"
+
+source:
+  fn: krb5-1.14.tar.gz
+  url: http://web.mit.edu/kerberos/dist/krb5/1.14/krb5-1.14.tar.gz
+  md5: 0727968764d0208388b85ad31aafde24
+
+# requirements:
+#   build:

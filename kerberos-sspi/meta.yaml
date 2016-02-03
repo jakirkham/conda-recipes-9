@@ -36,9 +36,10 @@ requirements:
     - python
     - pywin32
 
-# test:
+test:
   # Python imports
-  # imports:
+  imports:
+    - kerberos_sspi
 
   # commands:
     # You can put test commands to be run here.  Use this to test that the

@@ -11,8 +11,8 @@ user: binstar
 ## You can give install_channels, the channels needed for
 ## install and build.  For example, the r channel is needed for
 ## r builds.  Channel 'defaults' is always added.
-# install_channels:
-#  - defaults
+install_channels:
+ - binstar
 
 #===============================================================================
 # Build Matrix Options

@@ -31,14 +31,14 @@ requirements:
     - python
     - setuptools
     - requests >=1.1.0
-    - kerberos-sspi >=0.2 [win]
-    - pykerberos >=1.1.8,<2.0.0 [not win]
+    - kerberos-sspi >=0.2 # [win]
+    - pykerberos >=1.1.8,<2.0.0 # [not win]
 
   run:
     - python
     - requests >=1.1.0
-    - kerberos-sspi >=0.2 [win]
-    - pykerberos >=1.1.8,<2.0.0 [not win]
+    - kerberos-sspi >=0.2 # [win]
+    - pykerberos >=1.1.8,<2.0.0 # [not win]
 
 test:
   # Python imports

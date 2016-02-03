@@ -6,25 +6,11 @@ source:
   fn: pykerberos-1.1.9.tar.gz
   url: https://pypi.python.org/packages/source/p/pykerberos/pykerberos-1.1.9.tar.gz
   md5: 4276839df22fd6192594d875ba12ac3d
-#  patches:
-   # List any patch files here
-   # - fix.patch
 
-# build:
-  # noarch_python: True
-  # preserve_egg_dir: True
-  # entry_points:
-    # Put any entry points (scripts to be generated automatically) here. The
-    # syntax is module:function.  For example
-    #
-    # - pykerberos = pykerberos:main
-    #
-    # Would create an entry point called pykerberos that calls pykerberos.main()
-
-
+build:
   # If this is a new build for the same version, increment the build
   # number. If you do not include this key, it defaults to 0.
-  # number: 1
+  number: 1
 
 requirements:
   build:
@@ -36,9 +22,10 @@ requirements:
     - python
     - krb5
 
-# test:
+test:
   # Python imports
-  # imports:
+  imports:
+    - kerberos
 
   # commands:
     # You can put test commands to be run here.  Use this to test that the

@@ -2,6 +2,9 @@ package:
   name: bison
   version: "3.0.4"
 
+build:
+  number: 1
+
 source:
   fn: bison-3.0.4.tar.gz
   url: http://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.gz
@@ -9,4 +12,7 @@ source:
 
 requirements:
   build:
+    - m4
+
+  run:
     - m4

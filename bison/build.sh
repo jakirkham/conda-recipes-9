@@ -1,3 +1,3 @@
-./configure --prefix=$PREFIX M4=m4
+./configure --prefix=$PREFIX
 make
 make install

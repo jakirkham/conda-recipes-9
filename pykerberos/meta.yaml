@@ -30,9 +30,11 @@ requirements:
   build:
     - python
     - setuptools
+    - krb5
 
   run:
     - python
+    - krb5
 
 # test:
   # Python imports

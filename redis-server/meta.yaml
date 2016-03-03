@@ -1,0 +1,9 @@
+package:
+  name: redis-server
+  version: "3.0.7"
+
+source:
+  fn: redis-3.0.7.tar.gz
+  md5: 84ed3f486e7a6f0ebada6917370f3532
+  sha1: e56b4b7e033ae8dbf311f9191cf6fdf3ae974d1c
+  url: http://download.redis.io/releases/redis-3.0.7.tar.gz

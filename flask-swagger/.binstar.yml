@@ -1,0 +1,25 @@
+## The package attribute specifies a binstar package namespace to build the package to. 
+## This can be specified here or on the command line
+package: flask-swagger
+
+## You can also specify the account to upload to,
+## you must be an admin of that account, this
+## defaults to your user account
+user: binstar
+
+## The platforms to build on.
+platform:
+ - linux-64
+## The engine are the inital conda packages you want to run with 
+engine:
+ - python=2
+
+script:
+  - conda build .
+
+## Build Targets: Upload these files to your binstar package
+## The special build targets 'conda' and 'pypi' may be used to 
+## upload conda builds  
+## e.g. conda is an alias for /opt/anaconda/conda-bld/<os-arch>/*.tar.bz2
+build_targets:
+  - conda
